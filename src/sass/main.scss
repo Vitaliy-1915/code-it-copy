@@ -1,0 +1,19 @@
+// base
+@import './base/common';
+
+// components
+@import './components/button';
+@import './components/title';
+// layout
+@import './layout/garant';
+// @import './layout/footer';
+// @import './layout/header';
+// @import './layout/hero';
+@import './layout/how-we-do-it';
+@import './layout/programm';
+@import './layout/why-us';
+@import './layout/registration';
+
+// utils
+@import './utils/container';
+@import './utils/variables';

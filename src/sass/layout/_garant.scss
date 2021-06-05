@@ -1,0 +1,510 @@
+@media screen and (max-width: 767px) {
+  .garants__container {
+    background-color: var(--grey-bcg-color);
+  }
+  .garant__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+  }
+  .garants .feature-list__container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .feature-list__item {
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.666;
+    &:not(:last-child) {
+      margin-bottom: 23px;
+    }
+    &::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      width: 15px;
+      height: 20px;
+      background-image: url('../images/campfire.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &:nth-child(-n + 3):before {
+      position: absolute;
+      content: '';
+      left: 6px;
+      top: 25px;
+      width: 3px;
+      height: 68px;
+      background-image: url('../images/dash_dot.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+
+  .feature-list__description {
+    display: inline-block;
+    margin-left: 35px;
+    & span {
+      color: var(--orange-color);
+    }
+  }
+  // ==========Отзывы выпускников====================
+
+  .comments__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .comments .comments-main-foto__main-foto {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .comments-list {
+    box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.1);
+  }
+  .comments-list__name {
+    display: block;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.214;
+    text-align: center;
+    letter-spacing: 0.08em;
+    margin-bottom: 10px;
+    color: var(--orange-color);
+  }
+  .comments-list .comments-list__info {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.25;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: var(--grey-color);
+    margin-bottom: 10px;
+  }
+
+  .comments-list .comments-list-icon__vk {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .comments-list__description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--mob-grey-color);
+    & span {
+      display: inline-block;
+      color: var(--orange-color);
+      text-decoration: underline;
+    }
+  }
+
+  .comments-list__item {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+
+  // =====================нижние фото описания отзыва
+
+  .comments-under__list {
+    display: flex;
+    position: relative;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+    &::before {
+      position: absolute;
+      content: '';
+      width: 27px;
+      height: 16px;
+      top: 19px;
+      left: 0;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url('../images/arrow_left.svg');
+    }
+    &::after {
+      position: absolute;
+      display: inline-block;
+      content: '';
+      width: 27px;
+      height: 16px;
+      top: 19px;
+      right: 0px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url('../images/arrow_right.svg');
+    }
+  }
+
+  .comments-under__item:nth-child(-n + 2) {
+    margin-right: 10px;
+  }
+  .comments-under__item:nth-child(n + 4) {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .garant__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+  }
+  .garants .feature-list__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .garants .garants__container {
+    width: 688px;
+    padding-right: 0;
+    background-color: var(--grey-bcg-color);
+  }
+
+  .feature-list__item {
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.666;
+    padding-right: 100px;
+    padding-left: 40px;
+    &:not(:last-child) {
+      margin-bottom: 23px;
+    }
+    &::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      width: 15px;
+      height: 20px;
+      background-image: url('../images/campfire.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &:nth-child(-n + 3):before {
+      position: absolute;
+      content: '';
+      left: 6px;
+      top: 28px;
+      width: 3px;
+      height: 30px;
+      background-image: url('../images/dash_dot_tablet.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+
+  .feature-list__description span {
+    color: var(--orange-color);
+  }
+  // ==========Отзывы выпускников====================
+
+  .mobile-comment-container {
+    position: relative;
+    box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    &::before {
+      position: absolute;
+      content: '';
+      width: 27px;
+      height: 16px;
+      top: 50%;
+      left: -13px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url('../images/arrow_left.svg');
+    }
+    &::after {
+      position: absolute;
+      display: inline-block;
+      content: '';
+      width: 27px;
+      height: 16px;
+      top: 50%;
+      right: -13px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url('../images/arrow_right.svg');
+    }
+  }
+
+  .container_main_comment {
+    padding-right: 46px;
+  }
+  .comments__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .comments-list {
+    display: flex;
+  }
+  .comments .comments-main-foto__main-foto {
+    min-width: 150px;
+    min-height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .comments-list__name {
+    display: block;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+    margin-bottom: 20px;
+    color: var(--orange-color);
+  }
+  .comments-list .comments-list__info {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.08em;
+    color: var(--grey-color);
+    margin-bottom: 10px;
+  }
+
+  .comments-list .comments-list-icon__vk {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .comments-list__description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--mob-grey-color);
+    & span {
+      color: var(--orange-color);
+      text-decoration: underline;
+    }
+  }
+
+  // ==================нижние фото описания отзыва
+
+  .comments-under__list {
+    display: flex;
+    // position: relative;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+    // outline: 1px solid red;
+  }
+
+  .comments-under__item:nth-child(-n + 6) {
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1344px) {
+  .garant__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+  .garants .garants__container {
+    width: 1314px;
+    padding: 0;
+    background-color: var(--grey-bcg-color);
+  }
+  .garants .feature-list__container {
+    padding-top: 50px;
+    padding-bottom: 45px;
+
+    padding-right: 112px;
+  }
+  .feature-list {
+    display: block;
+    margin-left: 112px;
+    background-color: var(--grey-bcg-color);
+  }
+
+  .feature-list__item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    padding-right: 50px;
+    padding-left: 52px;
+    &:not(:last-child) {
+      margin-bottom: 23px;
+    }
+    &::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      width: 22px;
+      height: 30px;
+      background-image: url('../images/campfire.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &:nth-child(-n + 3):before {
+      position: absolute;
+      content: '';
+      left: 10px;
+      top: 34px;
+      width: 3px;
+      height: 40px;
+      background-image: url('../images/dash_dot_desk.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+  .feature-list__description {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    & span {
+      color: var(--orange-color);
+    }
+  }
+  // ===========================отзывы выпускников
+  .comments__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .comments-list .comments-list-icon__vk {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+  }
+
+  .comments-list {
+    width: 1090px;
+    justify-content: center;
+    box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.1);
+  }
+
+  .mobile-comment-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 0;
+    padding-left: 0;
+    box-shadow: none;
+    &::before {
+      position: absolute;
+      content: '';
+      width: 27px;
+      height: 16px;
+      top: 50%;
+      left: -13px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url('../images/arrow_left.svg');
+    }
+    &::after {
+      position: absolute;
+      display: inline-block;
+      content: '';
+      width: 27px;
+      height: 16px;
+      top: 50%;
+      right: -13px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url('../images/arrow_right.svg');
+    }
+  }
+  .container_main_comment {
+    padding-right: 40px;
+  }
+
+  .comments-list__item {
+    max-width: 706px;
+  }
+  .comments-list__name {
+    display: block;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.233;
+    letter-spacing: 0.08em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: var(--orange-color);
+  }
+  .comments-list .comments-list__info {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.214;
+    letter-spacing: 0.08em;
+    color: var(--grey-color);
+  }
+
+  .comments-list__description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.555;
+    padding-bottom: 51px;
+    color: var(--mob-grey-color);
+  }
+  .comments-list__main-foto {
+    padding-top: 50px;
+  }
+  // ====================нижние фото описания отзыва
+
+  .comments-under__item:nth-child(-n + 7) {
+    margin-right: 30px;
+  }
+  .comments-under__list {
+    margin-left: 30px;
+  }
+}
