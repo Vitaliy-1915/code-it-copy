@@ -1,0 +1,23 @@
+// base
+@import './base/common';
+
+// components
+@import './components/button';
+@import './components/title';
+@import './components/logo';
+// layout
+@import './layout/garant';
+@import './layout/main_problems';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/how-we-do-it';
+@import './layout/programm';
+@import './layout/teacher';
+@import './layout/why-us';
+@import './layout/registration';
+@import './layout/footer';
+@import './layout/ancors';
+// utils
+@import './utils/container';
+@import './utils/variables';
+@import './utils/body-lock';
